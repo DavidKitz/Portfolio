@@ -12,17 +12,29 @@
   {
     text-align: center;
     margin-top: 100px;
-    
+    width: 100%;
     height: 500px;
-    background-size: cover;
+    
+  }
+  #centerAbout
+  {
+    text-align: center;
+  }
+  #pAbout
+  {
+    font-size: 1.3em;
+    font-family: 'Oxygen Mono', monospace;
   }
   h1 
   {
     font-family: 'Oxygen Mono', monospace;
     font-size: 3.5em;
+    
   }
-  p{
+  #pCard{
     font-family: 'Oxygen Mono', monospace;
+    margin-left:25%;
+    text-decoration: underline;
   }
   li{
     font-family: 'Oxygen Mono', monospace;
@@ -31,24 +43,33 @@
 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5em;
+  color:white;
 }
-.col-sm
-{
-  margin: 5px;
-}
+
 .h2_header
 {
   font-family: 'Oxygen Mono', monospace;
   margin: 50px 0px;
   text-align: center;
+  
 }
 #headerlink
 {
   margin: 5px;
   font-family: 'Oxygen Mono', monospace;
+  color:white;
   
 }
+header{
+  width: 100%;
+}
+#background
+{
+  width: 100%;
+  background-image: url('../static/background.jpg');
+  background-size: cover;
 
+}
 img{
   height: 350px;
   width: 250px;
