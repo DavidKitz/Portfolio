@@ -31,6 +31,26 @@
     font-size: 3.5em;
     
   }
+  #emailHref
+  {
+    color: white;
+    font-family: 'Oxygen Mono', monospace;
+    font-size: 1.2em;
+    text-decoration: underline;
+    
+  }
+  #emailHref:hover
+  {
+    color: brown;
+    
+  } 
+  #emailLink
+  {
+    margin-top: -20px;
+    color:white;
+    font-family: 'Oxygen Mono', monospace;
+    font-size: 1.1em;
+  }
   #pCard{
     font-family: 'Oxygen Mono', monospace;
     margin-left:25%;
